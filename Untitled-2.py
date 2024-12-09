@@ -4,4 +4,7 @@ def salary(ho,hours):
     else:
         return("your salary is =",ho*hours)
 
-print(salary(12.75,7))
+x=int(input(" please enter how much money do you get for each hours: "))
+y=int(input("please enter how many hours do you work: "))
+
+print(salary(x,y))
